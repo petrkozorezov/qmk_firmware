@@ -35,3 +35,8 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+## pkm
+
+ * init submodule `g submodule update --init`
+ * flash `docker run -it --rm -v $PWD:$PWD --privileged --workdir $PWD qmkfm/base_container make ergodox_ez:pkm:flash`
